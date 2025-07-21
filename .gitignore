@@ -1,0 +1,4 @@
+__pycache__/
+backend/state/
+backend/output/
+node_modules/

@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "14.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "tailwindcss": "^3.0.0",
+    "file-saver": "^2.0.5"
+  },
+  "devDependencies": {
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0"
+  }
+}
