@@ -1,0 +1,10 @@
+{
+  "name": "instagram-reels-scraper",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter frontend dev\" \"python backend/run.py\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
