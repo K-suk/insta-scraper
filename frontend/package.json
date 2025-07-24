@@ -3,14 +3,17 @@
     "dev": "next dev"
   },
   "dependencies": {
+    "file-saver": "^2.0.5",
     "next": "14.x",
     "react": "18.x",
     "react-dom": "18.x",
-    "tailwindcss": "^3.0.0",
-    "file-saver": "^2.0.5"
+    "tailwindcss": "^3.0.0"
   },
   "devDependencies": {
+    "@types/node": "24.0.15",
+    "@types/react": "19.1.8",
+    "autoprefixer": "^10.0.0",
     "postcss": "^8.0.0",
-    "autoprefixer": "^10.0.0"
+    "typescript": "5.8.3"
   }
 }

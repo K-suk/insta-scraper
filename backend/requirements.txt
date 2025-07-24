@@ -1,7 +1,24 @@
-fastapi
-uvicorn[standard]
-playwright
-pandas
-httpx
-loguru
-python-dotenv
+# Web framework and server
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Web scraping and browser automation
+playwright>=1.40.0
+
+# Data processing
+pandas>=2.0.0
+
+# HTTP client
+httpx>=0.25.0
+
+# Logging
+loguru>=0.7.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+
+# Type hints (for Python < 3.9)
+typing-extensions>=4.8.0

@@ -33,19 +33,20 @@ export default function ScrapeForm() {
       <textarea
         className="w-full border p-2"
         rows={4}
-        placeholder="Usernames, one per line"
+        placeholder="スクレイピング対象のユーザー名を1行ずつ入力してください (例: username1\nusername2)"
         value={usernames}
         onChange={e => setUsernames(e.target.value)}
       />
       <input
         className="w-full border p-2"
-        placeholder="hashtag1, hashtag2"
+        placeholder="スクレイピング対象のハッシュタグをカンマ区切りで入力 (例: hashtag1, hashtag2)"
         value={hashtags}
         onChange={e => setHashtags(e.target.value)}
       />
       <input
         type="number"
         className="w-full border p-2"
+        placeholder="取得する最大投稿数 (例: 10)"
         value={maxItems}
         onChange={e => setMaxItems(Number(e.target.value))}
       />
